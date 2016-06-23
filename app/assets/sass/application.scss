@@ -39,3 +39,64 @@
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+#global-header {
+  .header-wrapper {
+    max-width:1020px;
+  }
+}
+.search-area {
+  height:76px;
+  overflow:auto;
+  background-color:#005ea5;
+  .searchy {
+    margin-top:20px;
+    span.search-label {
+      margin-left:30px;
+      margin-right:10px;
+      color:#fff;
+    }
+  }
+  .search-button {
+    height:35px;
+    background-color:#333;
+    color:#fff;
+
+    border-color:#333;
+  }
+  .stuff {
+
+    margin:0 auto;
+    max-width:1020px;
+    p {
+      margin:20px 0;
+    }
+  }
+
+
+  .scope-box {
+
+    background-color:#DEE0E2;
+    border:1px solid #DEE0E2;
+    height:25px;
+    padding:4px;
+    display:inline-block;
+    a {
+      text-decoration:none;
+    }
+  }
+}
+
+#content.home-page {
+  img {
+    display:inline-block;
+    max-width:100%;
+  }
+}
+
+.first-row {
+  margin-top:40px;
+}
+
+.form-control.search {
+  width:440px;
+}
