@@ -44,6 +44,30 @@
     max-width:1020px;
   }
 }
+
+.nested-menu-widget {
+  background-color: $panel-colour;
+  border-bottom:1px solid #979797;
+  overflow:auto;
+  .top-nav {
+    max-width:1020px;
+    margin:0 auto;
+  }
+  .categories-list {
+    margin-left:30px;
+    li {
+      display:inline-block;
+      float: left;
+      padding:15px;
+      border-right:1px solid #979797;
+    }
+  }
+}
+
+.clear {
+  clear:both;
+}
+
 .search-area {
   height:76px;
   overflow:auto;
@@ -93,10 +117,146 @@
   }
 }
 
-.first-row {
-  margin-top:40px;
-}
+
 
 .form-control.search {
   width:440px;
+}
+
+.home-page-story-link {
+  margin-bottom:0;
+  a {
+    font-weight:bold;
+  }
+}
+
+.home-news-story {
+  border-bottom:1px solid #bfc1c3;
+}
+
+.news-thumbnail {
+  padding:10px 0;
+  display:inline-block;
+  float: left;
+  margin-right:10px;
+  img {
+    width: 100px;
+  }
+}
+
+.apps {
+  font-size:14px;
+  line-height:1.4;
+  margin-bottom:20px;
+}
+
+.news-content {
+  padding:10px 0;
+  a {
+    font-weight:bold;
+  }
+  time {
+    display:block;
+    color: #666;
+    font-size:14px;
+  }
+}
+
+.smaller-text {
+  margin-top:0;
+  font-size:14px;
+  time {
+    display:block;
+    color: #666;
+  }
+}
+
+.intra-h1 {
+  font-size:36px;
+  font-weight:bold;
+  margin:24px 0;
+}
+
+.home-page-h2 {
+  font-size:24px;
+  font-weight:bold;
+  border-bottom:1px solid #333;
+  margin-bottom:20px;
+}
+
+.my-agency {
+  margin-top:95px;
+}
+
+.archive-panel {
+  background-color:#DEE0E2;
+  p {
+    padding:15px;
+  }
+}
+
+div.guidance {
+  /* */
+  h3 {
+    font-weight:bold;
+  }
+  .children-list {
+    h4 {
+      font-size:16px;
+    }
+    li {
+      margin-left:30px;
+      list-style-type:disc;
+      font-size:16px;
+    }
+  }
+}
+
+.second-row {
+  margin-top:60px;
+}
+
+.breadcrumbs-list {
+  display:block;
+  overflow:auto;
+  padding:15px 0;
+  font-size:16px;
+  margin-left:30px;
+  li {
+    display:inline;
+    margin-right:15px;
+  }
+  .separator {
+    background-image:url("{{ asset_path }}images/separator-2x.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 6px;
+  }
+}
+
+.left-hand-navigation {
+  margin-top:40px;
+  border:1px solid #efefef;
+  border-bottom:0;
+  li {
+    font-size:16px;
+    padding:10px;
+    border-bottom:1px solid #efefef;
+  }
+  .main-section {
+    background-color:$panel-colour;
+    font-weight:bold;
+  }
+  .parent-section {
+    font-weight:bold;
+  }
+  .child {
+    a {
+      margin-left:15px;
+    }
+  }
 }
