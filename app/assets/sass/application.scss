@@ -227,7 +227,7 @@ div.guidance {
     margin-right:15px;
   }
   .separator {
-    background-image:url("{{ asset_path }}images/separator-2x.png");
+    background-image:url("/public/images/separator-2x.png");
     background-repeat:no-repeat;
     background-size: 100% 100%;
     display: inline-block;
@@ -239,6 +239,9 @@ div.guidance {
 }
 
 .left-hand-navigation {
+  a:visited {
+    color:#005ea5;
+  }
   margin-top:40px;
   border:1px solid #efefef;
   border-bottom:0;
@@ -257,6 +260,56 @@ div.guidance {
   .child {
     a {
       margin-left:15px;
+      display:inline-block;
     }
   }
+  .child-level-2 {
+    a {
+      margin-left:30px;
+      display:inline-block;
+    }
+  }
+  .child-folder {
+    a {
+      margin-left:15px;
+      font-weight:bold;
+      display:inline-block;
+    }
+  }
+  .current-page {
+    font-weight:bold;
+  }
+}
+.content {
+  h1.page-title {
+    font-size:36px;
+    margin-top:40px;
+    font-weight:bold;
+  }
+
+  h2 {
+    margin:20px 0;
+    font-size:24px;
+    font-weight:bold;
+  }
+
+  h3 {
+    margin:30px 0 15px 0;
+    font-weight:19px;
+    font-weight:bold;
+  }
+
+  ul {
+    li {
+
+    }
+  }
+
+  .page-metadata {
+    margin:20px 0;
+    border:1px solid $panel-colour;
+    padding:10px;
+    font-size:16px;
+  }
+
 }
