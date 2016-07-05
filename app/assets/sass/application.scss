@@ -198,12 +198,15 @@
 div.guidance {
   /* */
   h3 {
-    font-weight:bold;
-    margin-bottom:24px;
+    border-top: 1px solid #e8e8e8;
     font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
   }
   h3.with-children {
     margin-bottom:0;
+    border:0;
+    padding:0;
   }
   .children-list {
     h4 {
