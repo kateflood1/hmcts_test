@@ -313,3 +313,33 @@ div.guidance {
   }
 
 }
+
+#header-logo {
+  display:none;
+}
+
+#global-header.laa {
+  background-color:#156c60;
+  .header-wrapper {
+    background-color:#156c60;
+  }
+}
+
+#global-header.opg {
+  background-color:#76b700;
+  .header-wrapper {
+    background-color:#76b700;
+  }
+}
+
+.moj-header {
+  background-color:#333;
+  height:24px;
+  p {
+    max-width:1020px;
+    margin:0 auto;
+    padding:10px 0;
+    color:#fff;
+    font-weight:700;
+  }
+}
