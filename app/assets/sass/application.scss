@@ -199,6 +199,11 @@ div.guidance {
   /* */
   h3 {
     font-weight:bold;
+    margin-bottom:24px;
+    font-size: 16px;
+  }
+  h3.with-children {
+    margin-bottom:0;
   }
   .children-list {
     h4 {
@@ -214,14 +219,29 @@ div.guidance {
 
 /* Guidance with children showing on G&F page */
 .second-row {
-  margin-top:60px; /* change to 30px if hiding children */
-}
-/*
-  Hide children...
-  .children-list {
-    display:none;
+  margin-top: 30px;
+  border-top:1px solid $panel-colour;
+  h2.heading-small.guidance-h2 {
+    margin-top:30px;
   }
-*/
+
+}
+.guidance-h1 {
+  margin-bottom:0;
+}
+h2.heading-small.guidance-h2 {
+  margin:15px 0;
+}
+.children-list {
+    display:none;
+}
+.third-row {
+
+  .children-list {
+      display:block;
+  }
+}
+
 
 
 .breadcrumbs-list {
