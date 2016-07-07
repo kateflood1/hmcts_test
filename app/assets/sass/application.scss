@@ -229,6 +229,18 @@ div.guidance {
   }
 
 }
+
+.second-row.alt {
+  h2.heading-small.guidance-h2 {
+    margin-top:30px;
+  }
+  h3.category-title {
+    margin-top:30px;
+    padding-top:0;
+    border:0;
+  }
+
+}
 .guidance-h1 {
   margin-bottom:0;
 }
@@ -372,5 +384,12 @@ h2.heading-small.guidance-h2 {
     padding:10px 0;
     color:#fff;
     font-weight:700;
+  }
+}
+
+.page-nav {
+  margin:30px;
+  li {
+    list-style-type:disc;
   }
 }
