@@ -1,4 +1,4 @@
-{% extends "layout-laa-a.html" %}
+{% extends "layout-hmcts-a.html" %}
 
 {% block page_title %}
   Blank page
@@ -11,15 +11,20 @@
     </li>
     <li class="breadcrumb-item current">Guidance and forms</li>
   </ul>
-
   <div class="grid-row">
-    <div class="column-two-thirds">
-        <h1 class="intra-h1 guidance-h1">Guidance &amp; forms</h1>
-      <h2 class="heading-small guidance-h2">General guidance: A-Z</h2>
-      <p>Find information on LAA's and MoJ's policies and processes.</p>
+    <div class="column-half">
+      <h1 class="intra-h1 guidance-h1">Guidance &amp; forms</h1>
+
+
+
     </div>
   </div>
+
   <div class="grid-row">
+    <div class="column-third guidance">
+      <h2 class="heading-small guidance-h2" id="general">General guidance</h2>
+      <p class="smaller-text">Find information on LAA's and MoJ's policies and processes.</p>
+    </div>
     <div class="column-third guidance">
     <h3 class="category-title"><a href="#">Buildings and facilities</a></h3>
       <h3 class="category-title"><a href="#">Change management</a></h3>
@@ -30,24 +35,19 @@
       <h3 class="category-title"><a href="#">Diversity &amp; Inclusion</a></h3>
       <h3 class="category-title"><a href="#">Financial principles and controls</a></h3>
       <h3 class="category-title"><a href="#">Fire, health and safety</a></h3>
-    </div>
-    <div class="column-third guidance">
-
       <h3 class="category-title"><a href="hr">HR</a></h3>
       <h3 class="category-title"><a href="#">IT and Digital</a></h3>
       <h3 class="category-title"><a href="#">Internal audit</a></h3>
       <h3 class="category-title"><a href="#">Jobs</a></h3>
+    </div>
+
+    <div class="column-third guidance">
+
       <h3 class="category-title"><a href="#">Knowledge and information</a></h3>
       <h3 class="category-title"><a href="#">Legal services</a></h3>
       <h3 class="category-title"><a href="#">Nominations</a></h3>
       <h3 class="category-title"><a href="#">Operational Delivery Profession (ODP)</a></h3>
       <h3 class="category-title"><a href="#">Policy making</a></h3>
-
-    </div>
-
-    <div class="column-third guidance">
-
-
       <h3 class="category-title"><a href="#">Public consultation guidance</a></h3>
       <h3 class="category-title"><a href="#">Research and analysis</a></h3>
       <h3 class="category-title"><a href="#">Reserve forces</a></h3>
@@ -63,40 +63,37 @@
 
   </div>
 
-  <div class="grid-row second-row">
-    <div class="column-two-thirds">
-      <h2 class="heading-small guidance-h2">Case management</h2>
-      <p>Find SOPs and desk aids relating to case management.</p>
-    </div>
-  </div>
-  <div class="grid-row third-row">
+
+  <div class="grid-row second-row alt">
     <div class="column-third guidance">
 
-    <h3 class="category-title with-children">
-      <a href="/intra-a/civil/">Civil</a>
-    </h3>
-
-    <ul class="children-list">
-      <li class="child-item">
-        <h4 class="child-title">
-          <a href="/intra-a/civil/guidance">Civil guidance</a>
-        </h4>
-      </li>
-      <li class="child-item">
-        <h4 class="child-title">
-          <a href="/intra-a/civil/sops">Civil SOPs</a>
-        </h4>
-      </li>
-      <li class="child-item">
-        <h4 class="child-title">
-          <a href="/intra-a/civil/desk-aids">Civil desk aids</a>
-        </h4>
-      </li>
-    </ul>
+      <h2 class="heading-small guidance-h2" id="case-management">Case management</h2>
+      <p class="smaller-text">Find SOPs and desk aids relating to case management.</p>
 
     </div>
     <div class="column-third guidance">
-      <h3 class="category-title with-children">
+      <h3 class="category-title">
+        <a href="/intra-a/civil/">Civil</a>
+      </h3>
+
+      <ul class="children-list">
+        <li class="child-item">
+          <h4 class="child-title">
+            <a href="/intra-a/civil/guidance">Civil guidance</a>
+          </h4>
+        </li>
+        <li class="child-item">
+          <h4 class="child-title">
+            <a href="/intra-a/civil/sops">Civil SOPs</a>
+          </h4>
+        </li>
+        <li class="child-item">
+          <h4 class="child-title">
+            <a href="/intra-a/civil/desk-aids">Civil desk aids</a>
+          </h4>
+        </li>
+      </ul>
+      <h3 class="category-title">
         <a href="/intra-a/crime/">Crime</a>
       </h3>
 

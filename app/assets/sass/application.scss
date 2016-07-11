@@ -54,7 +54,11 @@
     margin:0 auto;
   }
   .categories-list {
-    margin-left:30px;
+    margin-left:0;
+    li:first-child {
+      margin-left:0;
+      padding-left:0;
+    }
     li {
       display:inline-block;
       float: left;
@@ -264,7 +268,7 @@ h2.heading-small.guidance-h2 {
   overflow:auto;
   padding:15px 0;
   font-size:16px;
-  margin-left:30px;
+  margin-left:0;
   li {
     display:inline;
     margin-right:15px;
@@ -372,6 +376,13 @@ h2.heading-small.guidance-h2 {
   background-color:#76b700;
   .header-wrapper {
     background-color:#76b700;
+  }
+}
+
+#global-header.hmcts {
+  background-color:#67b2e8;
+  .header-wrapper {
+    background-color:#67b2e8;
   }
 }
 
