@@ -20,6 +20,9 @@
   }
 }
 
+$hmcts-colour: #67b2e8;
+
+
 // Related items
 // (These styles will be moved to GOV.UK elements, duplicating here for now.)
 .govuk-related-items {
@@ -333,8 +336,26 @@ h2.heading-small.guidance-h2 {
   .current-page {
     font-weight:bold;
   }
+  .agency-page {
+    border-right:4px solid $hmcts-colour;
+    padding-right:6px;
+  }
 }
+
+
+
+
 .content {
+  strong {
+    font-weight:bold;
+  }
+  ul {
+    margin-left:30px;
+    li {
+      list-style-type: disc;
+      line-height:1.5;
+    }
+  }
   h1.page-title {
     font-size:36px;
     margin-top:40px;
@@ -363,9 +384,15 @@ h2.heading-small.guidance-h2 {
 
   .page-metadata {
     margin:20px 0;
-    border:1px solid $panel-colour;
+    border-left:10px solid $panel-colour;
     padding:10px;
     font-size:16px;
+    ul {
+      margin-left:0;
+      li {
+        list-style-type:none;
+      }
+    }
   }
 
 }
