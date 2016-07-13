@@ -124,4 +124,39 @@ $(document).ready(function() {
   toggleContent.showHideRadioToggledContent();
   toggleContent.showHideCheckboxToggledContent();
 
+
+  // get hash from URL
+  var hash = window.location.hash;
+  hash = hash.slice(1);
+  if (hash!='') {
+    if (hash == 'w1') {
+      origin = "my-work";
+    } else if (hash == 'w2') {
+      origin = "my-work2";
+    } else if (hash == 'w3') {
+      origin = "my-work3";
+    } else if (hash == 'g1') {
+      origin = "guidance1";
+    } else if (hash == 'g2') {
+      origin = "guidance2";
+    } else {
+      origin = 'my-work';
+    }
+  }
+
+    origin = "/hmcts-a/" + origin;
+
+    $(".version-origin").attr("href", origin);
+
+    $("li.child a").each( function() {
+      link = $(this).attr("href");
+      if (link!="#") {
+        link = link + "#" + hash;
+        $(this).attr("href",link);
+      }
+
+
+    });
+
+
 });
